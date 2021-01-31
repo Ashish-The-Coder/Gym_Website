@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    height: 30cm;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("Background.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 0.8cm;
+    background-size: 100% 20cm;
+}
+
+option {
+    color: rgb(255, 79, 35) ;
+    font-size: 19px;
+    background-color:rgb(25, 148, 255);
+    text-align: center;
+}
+
+select {
+    background-color: rgb(255, 79, 35);
+    font-size: 19px;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    width: 10rem;
+    height: 2rem;
+}
+
+input, textarea{
+    color: rgb(255, 102, 31);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contents{
+    line-height: 38px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 600;
+    display: block;
+}
+input[type='submit']{
+    transition: all 0.2s ease-in-out 0s;
+}
+input[type="submit"]:hover{
+    cursor:pointer;
+    font-size: 20px;
+}
+input[type="submit"]:active{
+    cursor:pointer;
+    font-size: 2px;
+}
+.fieldset {
+    line-height: 23px;
+    height: 25rem;
+    display: block;
+    margin: -350px 620px;
+    background-color: rgb(255, 84, 32);
+    width: 13px;
+}
+
+legend {
+    text-align: center;
+}
+
+.header {
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.left {
+    display: inline-block;
+    margin: 16px;
+    /* color: rgb(255, 229, 80); */
+    /* border: 4px rgb(255, 102, 0) solid; */
+}
+
+.mid {
+    display: inline-block;
+    margin: 5px;
+    color: rgb(255, 102, 0);
+}
+
+.right {
+    position: fixed;
+    right: 6px;
+    display: inline-block;
+    border-radius: 18px;
+    margin: 15px;
+    color: rgb(51, 223, 214);
+    border: 5px rgb(255, 102, 0) solid;
+}
+
+.divs {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dumbbell {
+    margin-top: -14px;
+    position: absolute;
+    left: 12px;
+    top: 25px;
+    width: 55px;
+    height: 35px;
+}
+
+.links {
+    transition: all 0.7s ease-in-out 0s;
+    font-weight: bold;
+    margin: auto;
+}
+
+#home {
+    color: orangered;
+    margin-left: 180px;
+}
+
+.other_items {
+    margin-left: 15px;
+}
+
+.links:hover {
+    color: orangered;
+}
+
+.main {
+    font-weight: bold;
+    color: #d8d6d6;
+    font-size: 75px;
+    margin-top: 220px;
+    margin-left: 50px;
+}
+
+.white {
+    color: orangered;
+}
+
+/* Subtitle under heading */
+
+.subtitle {
+    color: darkorange;
+    margin-left: 120px;
+    font-weight: bold;
+}
+
+/* Pricing Box */
+
+ul {
+    line-height: 2;
+    display: inline-block;
+    border: 6px rgb(253, 118, 40) solid;
+    box-sizing: border-box;
+    background-color: rgb(75, 73, 73);
+    font-weight: bold;
+    font-size: 19px;
+    list-style: none;
+    padding: 25px 50px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.ulhead {
+    color: rgb(245, 71, 71);
+}
+
+.first {
+    color: rgb(235, 145, 72);
+}
+
+.second {
+    color: yellow;
+}
+
+.third {
+    color: rgb(0, 255, 21);
+}
+
+.forth {
+    color: rgb(70, 133, 250);
+}
